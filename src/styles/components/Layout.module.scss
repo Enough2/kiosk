@@ -1,0 +1,25 @@
+.container {
+    height: 100vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    cursor: none;
+    overflow: hidden;
+}
+
+.dark {
+    background-color: #000;
+    color: #fff;
+}
+
+.main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    color: #8f8f8f;
+    text-align: center;
+}
