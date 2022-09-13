@@ -1,0 +1,19 @@
+.clock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time {
+    color: #ddd;
+    font-size: 7.5rem;
+    font-weight: 600;
+    font-feature-settings: "tnum";
+}
+
+.date {
+    color: #8f8f8f;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-feature-settings: "tnum";
+}
