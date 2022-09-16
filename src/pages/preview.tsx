@@ -6,7 +6,8 @@ import backend from "../utils/url";
 const Preview: NextPage = () => {
     return (
         <Layout>
-            <img src={backend("stream")}></img>
+            <span className={styles.message}>잠시만 기다려주세요</span>
+            <img className={styles.preview} src={backend("stream")}></img>
         </Layout>
     );
 };
