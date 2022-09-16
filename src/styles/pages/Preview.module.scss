@@ -4,6 +4,22 @@
     color: #333;
 }
 
+.progress {
+    height: 0.5rem;
+    width: 640px;
+    border-radius: 0.25rem;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+    overflow: hidden;
+}
+
+.bar {
+    height: 100%;
+    background-color: #333;
+    border-radius: 0.25rem;
+}
+
 .preview {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     border-radius: 0.75rem;
 }

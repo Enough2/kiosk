@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useRef } from "react";
 import Clock from "../components/Clock";
@@ -27,11 +26,7 @@ const Home: NextPage = () => {
 
     return (
         <Layout dark>
-            <Link href="/preview">
-                <a>
-                    <Clock></Clock>
-                </a>
-            </Link>
+            <Clock></Clock>
         </Layout>
     );
 };
